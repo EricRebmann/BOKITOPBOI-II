@@ -1,0 +1,17 @@
+{
+  "rows": 6,
+  "columns": 8,
+  "player": {"row": 4, "column": 1, "health": 20, "attack": 5, "movement": 3},
+  "inventory": [],
+  "cells": [
+    {"row": 1, "column": 1, "type": "wall"},
+    {"row": 1, "column": 2, "type": "wall"},
+    {"row": 2, "column": 4, "type": "trap", "damage": 4},
+    {"row": 3, "column": 3, "type": "object", "object": {"id": "potion-1", "name": "Pocion", "healing": 6, "damageBonus": 0, "movementBonus": 0}},
+    {"row": 4, "column": 4, "type": "object", "object": {"id": "staff-1", "name": "Baston ligero", "healing": 0, "damageBonus": 1, "movementBonus": 2}},
+    {"row": 2, "column": 6, "type": "enemy", "enemy": {"id": "enemy-1", "name": "Sombra", "health": 10, "attack": 3}},
+    {"row": 0, "column": 7, "type": "door", "open": false}
+  ],
+  "finished": false,
+  "won": false
+}
