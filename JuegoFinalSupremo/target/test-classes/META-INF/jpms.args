@@ -1,4 +1,0 @@
---patch-module
-org.example.juegofinalsupremo=_
---add-reads
-org.example.juegofinalsupremo=ALL-UNNAMED
